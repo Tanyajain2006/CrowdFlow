@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+
+# Virtual environments
+.venv/
+venv/
+env/
+backend/ai_venv/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Backend generated data
+backend/storage/
+*.db
+*.sqlite
+*.sqlite3
+
+# Pretrained and downloaded model weights
+*.pt
+*.pth
+*.onnx
+*.weights
+
+# Frontend dependencies and builds
+frontend/node_modules/
+frontend/dist/
+dist/
+node_modules/
+
+# Logs and temporary files
+*.log
+logs/
+tmp/
+temp/
+.cache/
+
+# Editors and operating systems
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
